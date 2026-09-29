@@ -1,0 +1,4 @@
+Model,MAE full 2024,MAE Oct-Dec
+Baseline (tomorrow = today),12.1,18.7
+Linear Regression,13.2,18.5
+Random Forest,12.0,17.3

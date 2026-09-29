@@ -1,0 +1,7 @@
+# Large raw fire files (download from NASA FIRMS instead)
+data/raw/modis_*_India.csv
+
+# Jupyter and system files
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
