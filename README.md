@@ -4,7 +4,8 @@ Forecasting Delhi's next-day PM2.5 using weather data and satellite-detected cro
 
 Every winter, Delhi's air becomes some of the most polluted in the world. Crop-residue (stubble) burning in Punjab and Haryana is often blamed, but weather also plays a big role. This project combines air quality, weather and fire data to explore what drives Delhi's pollution, and tests whether machine learning can forecast tomorrow's PM2.5 better than a simple rule.
 
-![Delhi PM2.5 vs crop fires](reports/pm25_vs_fires.png)
+<img width="1101" height="406" alt="image" src="https://github.com/user-attachments/assets/97a6306d-2aa9-4803-9a6c-af011f08fd03" />
+
 
 ## Data
 
@@ -52,9 +53,11 @@ Models were tested on two separate periods the model had never seen, to check wh
 - Random Forest likely struggled in Test 2 because it had only about 11 months of training data with a single stubble-burning season. Tree-based models need more examples to learn reliable patterns.
 - **Conclusion:** with about two and a half years of data, adding weather and fire information gives, at best, small and inconsistent improvements over a simple persistence forecast. More years of data, measured station data and weather forecasts would be needed for a reliable improvement.
 
-![Forecast vs actual, Oct-Dec 2024](reports/forecast_vs_actual.png)
+<img width="733" height="386" alt="image" src="https://github.com/user-attachments/assets/36006f62-f55d-4d6b-b20d-7278150c4e91" />
 
-![Feature importance](reports/feature_importance.png)
+
+<img width="1050" height="750" alt="image" src="https://github.com/user-attachments/assets/7119fd27-2f76-4a8a-888a-54fef441ebba" />
+
 
 ## Key findings from the data
 
